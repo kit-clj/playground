@@ -1,0 +1,8 @@
+{:full-name "io.github.kit/playground"
+ :ns-name   "io.github.kit.playground"
+ :sanitized "io/github/kit/playground"
+ :name      "playground"
+ :modules   {:root         "modules"
+             :repositories [{:url  "https://github.com/kit-clj/modules.git"
+                             :tag  "master"
+                             :name "kit-modules"}]}}
