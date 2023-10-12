@@ -7,7 +7,7 @@
   // More info: https://containers.dev/features.
   "features": {},
   // Use 'forwardPorts' to make a list of ports inside the container available locally.
-  // "forwardPorts": [],
+  // "forwardPorts": [ ],
   // Run commands on cluster first start. Useful for download dependencies, etc.
   // "postCreateCommand": "",
   // Copy host env vars into the devcontainer.  You can also refer to some_file.env files in your docker or docker-compose setup.
@@ -16,7 +16,24 @@
     "vscode": {
       "extensions": [
         "betterthantomorrow.calva"
-      ]
+      ],
+      "settings": {
+        "calva.replConnectSequences": [
+          {
+            "name": "Kit-Clj Guestbook Tutorial",
+            "projectType": "deps.edn",
+            "cljsType": "none",
+            "nReplPortFile": [
+              ".nrepl-port"
+            ],
+            "menuSelections": {
+              "cljAliases": [
+                "dev"
+              ]
+            }
+          }
+        ]
+      }
     }
   }
 }
