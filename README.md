@@ -12,8 +12,7 @@ This is a devcontainer quickstart to accompany the [kit-clj guestbook tutorial](
 ## Quickstart Github Codespaces
 If you have configured your Github account, you can start the project without any other setup.  It will open a web-based vscode editor backed by a Github Codespace VM. (Codespaces is Github's hosted Devcontainer solution)
 
-[![Open in Github Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/kit-clj/playground.github.io)
-
+[![Open in Github Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new/kit-clj/playground.github.io)
 
 ## Running with a different editor
 
