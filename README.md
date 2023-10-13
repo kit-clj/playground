@@ -83,4 +83,4 @@ If you switch it to `https://upgraded-system-91a35v996cpw44-3000.app.github.dev/
 You can use the [devcontainer cli](https://github.com/devcontainers/cli) to start a devcontainer at the command line.  There are a number of ways to interact with it from emacs.  We are tracking this sort of usage [here](https://github.com/jwhitlark/cnc-devcontainer-templates/issues/3)
 
 # Continuing with the Guestbook tutorial
-Once you're running in a devcontainer, open a terminal and jump to the [anatomy of a Kit application]([https://kit-clj.github.io/docs/guestbook.html#creating_a_new_application](https://kit-clj.github.io/docs/guestbook.html#anatomy_of_a_kit_application)https://kit-clj.github.io/docs/guestbook.html#anatomy_of_a_kit_application) in the tutorial.
+Once you're running in a devcontainer, open a terminal and jump to the [anatomy of a Kit application](https://kit-clj.github.io/docs/guestbook.html#anatomy_of_a_kit_application) in the tutorial.
